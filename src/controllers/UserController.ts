@@ -8,6 +8,6 @@ export default class UserController{
         res:Response
         ):Promise<Response> => {
         return res;
-    }
+    };
 
 }
