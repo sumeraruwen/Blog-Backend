@@ -7,3 +7,5 @@ const router : Router = Router();
 const baseURL = "/api/v1/";
 
 router.use(`${baseURL}user`, new UserRoutes().getRouter());
+
+export default router;
